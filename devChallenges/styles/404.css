@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@700&family=Quicksand:wght@300;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&family=Quicksand:wght@300;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;500;700&family=Space+Mono:wght@700&display=swap');
+
+:root {
+    --gray-1: #333333;
+    --gray-2: #4F4F4F;
+    --gray-3: #BDBDBD;
+    --white: #FFFFFF
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+a {
+    text-decoration: none;
+}
+
+header {
+    padding: 1rem 6rem 3rem 6rem;
+    ;
+}
+
+.headerTitle {
+    font-family: 'Inconsolata', monospace;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 25.18px;
+    letter-spacing: -0.08em;
+    color: var(--gray-1);
+
+}
+
+section {
+    display: flex;
+    justify-content: center;
+    gap: 10%;
+}
+
+.imgContainer {
+    max-width: 600px;
+    max-height: 500px;
+}
+
+.imgContainer img {
+    width: 100%;
+}
+
+aside {
+    max-width: 30%;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    justify-content: space-between;
+}
+
+.top h2 {
+    font-family: 'Space Mono', monospace;
+    font-size: 64px;
+    font-weight: 700;
+}
+
+.mid {
+    max-width: 75%;
+}
+
+.mid span {
+    font-family: 'Space Mono', monospace;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 36px;
+    letter-spacing: -0.035em;
+    text-align: left;
+    color: var(--gray-2);
+}
+
+.bottom a {
+    font-family: 'Space Mono', monospace;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 21px;
+    letter-spacing: -0.035em;
+    text-align: left;
+
+    background-color: var(--gray-1);
+    color: var(--white);
+    padding: 1rem;
+}
+
+.credits {
+    color: var(--gray-3);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 17.07px;
+    text-align: center;
+}
+
+.credits span {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 17.07px;
+    text-decoration: underline;
+}
+
+.credits a {
+    color: var(--gray-3);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 17.07px;
+}
