@@ -20,6 +20,7 @@ body {
     height: 100vh;
     display: flex;
     flex-direction: column;
+    justify-content: center;
 }
 
 a {
@@ -28,6 +29,15 @@ a {
 
 header {
     padding: 1rem;
+    position: fixed;
+    top: 0;
+}
+
+section {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    padding: 4rem;
 }
 
 .headerTitle {
@@ -37,7 +47,6 @@ header {
     line-height: 25.18px;
     letter-spacing: -0.08em;
     color: var(--gray-1);
-
 }
 
 article>img {
@@ -90,6 +99,7 @@ footer {
     font-family: 'Montserrat', sans-serif;
     font-size: 14px;
     font-weight: 500;
+    flex-wrap: wrap;
     line-height: 17.07px;
     text-align: center;
 }
@@ -124,7 +134,7 @@ footer {
     }
 
     article>img {
-        max-width: 25rem;
+        max-width: 37.5rem;
     }
 
     aside {
